@@ -1,16 +1,14 @@
-package com.gentech.dataset;
-
-import javax.annotation.Resource;
-
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.gentech.dataset.service;
+//Am încercat să combin mai multe tutoriale, adaugand si cateva elemente personale
+package com.gentech.dataset; //Numele package
+import javax.annotation.Resource; //Pentru annotation definite de noi
+import org.springframework.boot.CommandLineRunner; // Ceea ce nu am inteles..la versiuni mai noi
+import org.springframework.boot.SpringApplication; // au dispărut aceste funcțiuni
+import org.springframework.boot.autoconfigure.SpringBootApplication; // sau au fost redenumite?
+import main.java.com.gentech.dataset.service.FilesStorageService; // cum pot afla denumirea actuala?
 
 @SpringBootApplication
 public class SpringBootUploadMultipleFilesApplication implements CommandLineRunner {
-  @Resource
+  @Resource //annotation personal
   FilesStorageService storageService;
 
   public static void main(String[] args) {

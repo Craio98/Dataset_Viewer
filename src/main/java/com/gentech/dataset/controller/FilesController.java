@@ -23,7 +23,7 @@ import main.java.com.gentech.dataset.message.ResponseMessage;
 import main.java.com.gentech.dataset.service.FilesStorageService;
 
 @Controller
-@CrossOrigin("http://localhost:8081")
+@CrossOrigin("http://localhost:12345")
 public class FilesController {
 
   @Autowired
@@ -40,10 +40,10 @@ public class FilesController {
         fileNames.add(file.getOriginalFilename());
       });
 
-      message = "Uploaded the files successfully: " + fileNames;
+      message = "Au fost incarcate fisierele: " + fileNames;
       return ResponseEntity.status(HttpStatus.OK).body(new ResponseMessage(message));
     } catch (Exception e) {
-      message = "Fail to upload files!";
+      message = "Nu s-a reusit sa fie incarcate fisierele. Cauza probabila:";
       return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED).body(new ResponseMessage(message));
     }
   }
