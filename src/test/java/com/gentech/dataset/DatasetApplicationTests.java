@@ -1,10 +1,10 @@
-package com.gentech.DatasetViewer;
+package com.gentech.dataset;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DatasetViewerApplicationTests {
+class DatasetApplicationTests {
 
 	@Test
 	void contextLoads() {

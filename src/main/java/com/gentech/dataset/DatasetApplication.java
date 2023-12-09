@@ -1,13 +1,13 @@
-package com.gentech.DatasetViewer;
+package com.gentech.dataset;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DatasetViewerApplication {
+public class DatasetApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DatasetViewerApplication.class, args);
+		SpringApplication.run(DatasetApplication.class, args);
 	}
 
 }
