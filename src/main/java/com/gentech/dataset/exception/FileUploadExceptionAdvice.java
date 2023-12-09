@@ -3,7 +3,7 @@ package main.java.com.gentech.dataset.exception;
 import org.springframework.web.multipart.MaxUploadSizeExceededException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.bezkoder.spring.files.uploadmultiple.model.ResponseMessage;
+import main.java.com.gentech.dataset.message.ResponseMessage;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
