@@ -2,7 +2,7 @@ Proiect realizat urmărind tutorialele de la Generatia Tech si de la https://www
 (computer vision), dar fiind nou in JAVA.
 Consta in: incarcarea pe backend a unor fisiere multiple (de pe client sunt trimise fisierele pe backend si sunt salvate pe server)
 
-Mi-as fi dorit sa realizez mai multe, aveam in plan sa fac clase ce-mi proceseaza imaginile (imi calculeaza o medie a pixelilor, imi ofera mai multe detalii legate de imagini), 
+Mi-as fi dorit sa realizez mai multe, aveam in plan sa fac clase+metode ce-mi proceseaza imaginile (imi calculeaza o medie a pixelilor, imi ofera mai multe detalii legate de imagini), 
 dar cred ca nivelul era prea avansat. Asa ca asta e ce am realizat pana in prezent, sper eu ca pe termen lung sa descopar functionalitati noi.
 
 As avea rugamintea, daca se poate, sa ma ajutati cu sugestii legate de:
